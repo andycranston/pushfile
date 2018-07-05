@@ -1,6 +1,6 @@
 #!/usr/local/bin/expect --
 #
-# @(!--#) @(#) pushfile.exp, version 003, 08-november-2000
+#  @(!--#) @(#) pushfile.exp, version 003, 08-november-2000
 #
 
 ##############################################################################
