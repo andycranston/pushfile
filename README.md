@@ -164,14 +164,14 @@ is a binary file called `release.tar.gz` then convert to a text
 based format with:
 
 ```
-uuencode < release.tar.gz > t.txt
+uuencode t.txt < release.tar.gz > t.txt
 ```
 
 Transfer the file `t.txt` to the remote system and then on the remote
 system do:
 
 ```
-uudecode < t.txt > release.tar.gz
+uudecode -o release.tar.gz < t.txt
 ```
 
 Once you have confirmed the binary file has transferred successfully delete
