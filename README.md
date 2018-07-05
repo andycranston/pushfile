@@ -278,4 +278,21 @@ and then use the `pushfile` expect script to transfer the C-Kermit
 binary executable to the remote system.  Try and do a statically linked
 compile of C-Kermit to avoid library issues on the remote system.
 
+## What does the `nile.csv` file contain?
+
+The `nile.csv` file contains data on the flooding of the river Nile.
+There are 570 records, each with 2 values: year index, maximum height
+of Nile flood. There is also an initial header line.
+
+I got it from this web page:
+
+[CSV Files](https://people.sc.fsu.edu/~jburkardt/data/csv/csv.html)
+
+the link to view/download is:
+
+<https://people.sc.fsu.edu/~jburkardt/data/csv/nile.csv>
+
+My thanks to John Burkardt from Florida State University for providing
+a handy source of test data files.
+
 ---------------------------------------------------------------
