@@ -1,5 +1,5 @@
 /*
- *  @(!--#) @(#) hex2binary.c, version 001, 04-july-2018
+ *  @(!--#) @(#) hex2binary.c, version 002, 06-july-2018
  *
  *  convert hex on stdin to byte output
  *
@@ -16,21 +16,13 @@ int main(argc, argv)
   int   argc;
   char *argv[];
 {
-  char *progname;
-  int   linenum;
   char  line[MAX_LINE_LENGTH + sizeof(char)];
   int   lenline;
   int   i;
   char  hex[3];
   int   byte;
 
-  progname = argv[0];
-
-  linenum = 0;
-  
   while (fgets(line, MAX_LINE_LENGTH, stdin) != NULL) {
-    linenum++;
-
     lenline = strlen(line);
 
     if (line[lenline - 1] == '\n') {
